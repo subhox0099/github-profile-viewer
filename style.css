@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+body{
+    
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #000000f7;
+    
+}
+
+.container{
+    border-radius: 20px;
+    background: #0a0a0a;
+    box-shadow: 
+    0 0 10px #00ffff, 
+    0 0 20px #00ffff, 
+    0 0 40px #00ffff, 
+    0 0 80px #00ffff; /* Sci-fi glow */
+  transition: 0.3s ease-in-out;
+    height: 493px;
+    width: 880px;
+    border: 1px solid black;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 20px;
+    padding: 50px;
+}
+
+.container:hover {
+    box-shadow: 
+      0 0 15px #00ffff, 
+      0 0 30px #00ffff, 
+      0 0 60px #00ffff, 
+      0 0 120px #00ffff;
+    
+  }
+
+.container input{
+    display: block;
+    color: black;
+    width: 350px;
+    height: 33px;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%, 0);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.result {
+    /* display: none; */
+    border: 1px solid black;
+    height: 350px;
+    margin-top: 50px;
+}
+.username{
+
+    height: 200px;
+    margin: 50px;
+    position: absolute;
+    left: 200px;
+}
+
+.images{
+    overflow: hidden;
+}
+.image{
+    margin: 40px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+
+}
+#maininfo{
+    display: flex ;
+}
+
+#info{margin-left: 100px;
+    list-style: none;
+    display: flex;
+}
+#info li{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#repo{
+
+    padding: 20px;
+    margin: 20px;
+
+}
+#repo a {
+
+    display: inline-block;
+    padding: 15px 10px;
+    background-color: #34586069;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
